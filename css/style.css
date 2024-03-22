@@ -1,0 +1,146 @@
+/* Container list*/
+
+.container-60{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.container-40{
+    max-width: 40%;
+    margin: 0 auto;
+    border-style: none;
+}
+
+/*row*/
+
+.row{
+    display: flex;
+}
+
+/*column list*/
+
+.col-15{
+    display: flex;
+    width: 15%;
+}
+
+.col-20{
+    display: flex;
+    width: 20%;
+}
+
+.col-40{
+    display: flex;
+    width: 40%;
+}
+
+.col-50{
+    display: flex;
+    width: 60%;
+}
+
+.col-60{
+    display: flex;
+    width: 60%;
+}
+
+.col-100{
+    display: flex;
+    width: 100%;
+}
+
+/*background color list*/
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-light-gray{
+    background-color: lightgrey;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+/*sizing list*/
+
+.padding-20{
+    padding: 20px;
+}
+
+.height-70{
+    height: 70px;
+}
+
+.height-400{
+    height: 400px;
+}
+
+.height-700{
+    height: 700px;
+}
+
+/*align list*/
+
+.align-L{
+    justify-content: left;
+    align-items: center;
+}
+
+.align-C{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-R{
+    justify-content: right;
+    align-items: center;
+}
+
+/*other*/
+
+.col-20 > button{
+    border-radius: 30px;
+    padding: 15px 15px;
+    border-style: none;
+    background-color: white;
+}
+
+.col-60 > li, a{
+    list-style: none;
+    
+
+}
+
+.col-60 > li:not(:last-child){
+    margin-right: 60px;
+}
+
+/*strong*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
