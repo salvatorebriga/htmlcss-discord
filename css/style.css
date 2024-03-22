@@ -39,6 +39,8 @@
     margin-bottom: 150px;
 }
 
+
+
 /*row*/
 
 .row{
@@ -48,12 +50,21 @@
 /*column list*/
 
 .col-15{
-    display: flex;
     width: 15%;
 }
 
+.col-20 > h2{
+    font-size: 50px;
+    padding-top: 180px;
+}
+
+.col-20 > p{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight:400;
+}
+
 .col-20{
-    display: flex;
     width: 20%;
 }
 
@@ -64,12 +75,17 @@
 
 .col-50{
     display: flex;
-    width: 60%;
+    width: 50%;
 }
 
 .col-60{
     display: flex;
     width: 60%;
+}
+
+.col-60 > img{
+    padding: 150px;
+    padding-left: 400px;
 }
 
 .col-100{
