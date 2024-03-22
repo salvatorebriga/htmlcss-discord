@@ -60,7 +60,7 @@
 }
 
 .bg-blue{
-    background-color: blue;
+    background-color: #3161e0;
 }
 
 .bg-pink{
@@ -121,12 +121,17 @@
     padding: 15px 15px;
     border-style: none;
     background-color: white;
+    font-weight: 600;
 }
 
-.col-60 > li, a{
+.col-60 > li{
     list-style: none;
-    
+}
 
+li > a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .col-60 > li:not(:last-child){
