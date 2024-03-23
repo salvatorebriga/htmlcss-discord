@@ -1,5 +1,10 @@
 /* Container list*/
 
+.container-80{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .container-60{
     max-width: 60%;
     margin: 0 auto;
@@ -29,7 +34,7 @@
 }
 
 .bt-container-jumbo > button:last-child{
-    background-color: black;
+    background-color: #23272a;
     color: white;
     padding: 20px;
     border-radius: 30px;
@@ -59,6 +64,28 @@
 .star{
     background-image: url(../img/stars.svg);
     background-size:contain;
+}
+
+.twitter{
+    width: 7%;
+    margin-right: 10px;
+}
+
+.facebook{
+    width: 7%;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.instagram{
+    width: 7%;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.youtube{
+    width: 7%;
+    filter: invert(100%);
 }
 
 /*row*/
@@ -154,6 +181,10 @@ h1{
     margin-bottom: 60px;
 }
 
+.h2-foot{
+    font-size: 38px;
+}
+
 .mrg-left{
     margin-left: 400px;
 }
@@ -170,6 +201,10 @@ h1{
     filter: brightness(150%);
     filter: contrast(150%);
     filter: opacity(4.5%);
+}
+
+.ita-size{
+    width: 10%;
 }
 
 .turned{
@@ -201,12 +236,32 @@ h1{
 }
 
 .bg-black{
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: #23272a;
+}
+
+.colours-blue{
+    color: #758de0;
+}
+
+.colours-white{
+    color:white;
 }
 
 
 .padding-20{
     padding: 20px;
+}
+
+.padding-50{
+    padding:100px 0px;
+}  
+
+.padding-top20{
+    padding-top: 20px;
+}
+
+.padding-100{
+    padding: 95px;
 }
 
 .padding-bottom80{
