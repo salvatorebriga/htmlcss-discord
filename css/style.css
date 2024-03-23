@@ -88,6 +88,19 @@
     filter: invert(100%);
 }
 
+.footer-list > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list > li{
+    margin-top: 15px;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
 /*row*/
 
 .row{
@@ -161,17 +174,17 @@
     font-weight: 600;
 }
 
-.col-60 > li{
+.head-list > li{
     list-style: none;
 }
 
-li > a{
+.head-list > li > a{
     color: white;
     font-weight: 600;
     text-decoration: none;
 }
 
-.col-60 > li:not(:last-child){
+.head-list > li:not(:last-child){
     margin-right: 60px;
 }
 
