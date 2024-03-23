@@ -194,6 +194,17 @@ h1{
     margin-bottom: 60px;
 }
 
+#registration-bt{
+    background-color: #8ea1e1;
+    color: white;
+    width: 120px;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .h2-foot{
     font-size: 38px;
 }
@@ -204,6 +215,10 @@ h1{
 
 .pd-top20{
     padding-top: 20px;
+}
+
+.mrg-top{
+    margin-top: 40px;
 }
 
 /*utility*/
