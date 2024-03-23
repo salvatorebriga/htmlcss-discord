@@ -21,6 +21,10 @@
     color: white;
 }
 
+#jumbo-h2{
+    font-size: 30px;
+}
+
 .bt-container-jumbo > button:first-child{
     background-color: white;
     color: black;
